@@ -9,13 +9,13 @@ render(){return(
       </thead>
       <tbody className="factoid">
         <tr>
-        <h3 className="factoid">Web Solutions</h3>
+        <h4 className="factoid">Web Solutions</h4>
         </tr>
         <tr>
-        <h3 className="factoid">Custom API and Backend Frameworks</h3>
+        <h4 className="factoid">Custom API and Backend Frameworks</h4>
         </tr>
         <tr>
-        <h3 className="factoid">Mobile development</h3>
+        <h4 className="factoid">Mobile development</h4>
         </tr>
       </tbody>
     </Table>
