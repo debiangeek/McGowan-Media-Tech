@@ -39,6 +39,11 @@ class AppNavbar extends Component {
                             </NavLink>
                         </NavItem>
                         <NavItem pullRight>
+                            <NavLink href="https://sheltered-bastion-26577.herokuapp.com/">
+                                LyricFinder
+                            </NavLink>
+                        </NavItem>
+                        <NavItem pullRight>
                             <NavLink href="https://github.com/debiangeek">
                                 GitHub
                             </NavLink>
