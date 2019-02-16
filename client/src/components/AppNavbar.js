@@ -29,7 +29,7 @@ class AppNavbar extends Component {
             <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
             <Container>
-                <NavbarBrand href="/">Mike McGowan</NavbarBrand>
+                <NavbarBrand href="https://mmtech871143481.wordpress.com/">Mike McGowan</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar pullRight >
@@ -49,8 +49,8 @@ class AppNavbar extends Component {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="mailto:mcgowan.michael@gmail.com">
-                            Contact
+                            <NavLink href="https://mmtech871143481.wordpress.com/">
+                            Blog
                         </NavLink>
                         </NavItem>
                     </Nav>
