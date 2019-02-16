@@ -29,21 +29,21 @@ class AppNavbar extends Component {
             <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
             <Container>
-                <NavbarBrand href="https://mmtech871143481.wordpress.com/">Mike McGowan</NavbarBrand>
+                <NavbarBrand href="/">Mike McGowan</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
-                    <Nav className="ml-auto" navbar pullRight >
-                        <NavItem pullRight>
+                    <Nav className="ml-auto" navbar pullright >
+                        <NavItem pullright>
                             <NavLink href="https://sleepy-brook-63163.herokuapp.com/">
                                 MERN Shopping List Example
                             </NavLink>
                         </NavItem>
-                        <NavItem pullRight>
+                        <NavItem pullright>
                             <NavLink href="https://sheltered-bastion-26577.herokuapp.com/">
                                 LyricFinder
                             </NavLink>
                         </NavItem>
-                        <NavItem pullRight>
+                        <NavItem pullright>
                             <NavLink href="https://github.com/debiangeek">
                                 GitHub
                             </NavLink>
