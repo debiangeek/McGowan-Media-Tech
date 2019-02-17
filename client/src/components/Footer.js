@@ -5,10 +5,6 @@ class Footer extends Component {
     render() {
         return (
         <div className="container" >
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <div className="footer">
                 Copyright 2019 
                 <a className="footerLink" href="https://mcgowanmedia.tech"> Mike McGowan
