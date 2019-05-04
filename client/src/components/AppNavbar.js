@@ -34,8 +34,8 @@ class AppNavbar extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar pullright >
                         <NavItem pullright>
-                            <NavLink href="https://sleepy-brook-63163.herokuapp.com/">
-                                MERN Shopping List Example
+                            <NavLink href="https://quotes.mcgowanmedia.tech/">
+                                Quotes Generator
                             </NavLink>
                         </NavItem>
                         <NavItem pullright>
