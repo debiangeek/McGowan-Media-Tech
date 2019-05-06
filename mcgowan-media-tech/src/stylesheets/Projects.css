@@ -1,0 +1,47 @@
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: inherit;
+    min-height: 100vh;
+    background-color: #3A3A3A;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vw;
+    width: 20em;
+    height: 10em;
+    max-height: 15em;
+    max-width: 30em;
+    border: 5px solid #0D0D0D;
+    background-color: antiquewhite;
+    color: black;    
+}
+
+.project-link {
+    display: block;
+}
+
+.project-text {
+    text-align: center;
+    margin: .5em;
+    width: 18em;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .project-flex {
+        flex-direction: column;
+    }
+}
