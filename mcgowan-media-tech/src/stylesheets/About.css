@@ -21,6 +21,9 @@
 }
 
 @media only screen and (max-width: 750px) {
+  #about-container {
+    min-height: 100vh;
+  }
   .about-box {
     padding: 2em;
     max-width: 90vw;
