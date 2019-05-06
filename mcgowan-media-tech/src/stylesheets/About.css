@@ -1,0 +1,28 @@
+#about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: inherit;
+    min-height: 100vh;
+    background-image: url("../art-blur-bright.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-box {
+  background-color: black;
+  color: antiquewhite;
+  padding: 3em;
+  max-width: 60vw;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 750px) {
+  .about-box {
+    padding: 2em;
+    max-width: 90vw;
+  }
+}
