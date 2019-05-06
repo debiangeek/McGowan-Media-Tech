@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     min-width: inherit;
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: url("../art-blur-bright.jpg");
     background-attachment: fixed;
     background-position: center;
